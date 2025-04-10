@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(20, 119, 240);
+}
+
+
+#workout-form,
+input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px;
+    margin-top: 7px;
+    background-color: rgb(233, 233, 233);
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+
+select{
+    margin-top: 5px;
+}
+
+button{
+    margin-top: 20px;
+    padding: 3px 20px;
+}
+
+.delete-btn{
+    padding: 5px 50px;
+}
+
+#workout-list{
+    text-align: center;
+    margin-top: 20px;
+}

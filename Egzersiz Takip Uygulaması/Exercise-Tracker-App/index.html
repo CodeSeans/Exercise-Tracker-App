@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Egzersiz Takip Uygulaması</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<h1>Exercise Tracker App</h1>
+
+<form id="workout-form">
+    <input type="text" id="exercise-name" placeholder="Exercise Name" required>
+    <input type="number" id="sets" placeholder="Sets" required>
+    <input type="number" id="reps" placeholder="Reps per Set" required>
+    <input type="number" id="weight" placeholder="Weight (kg)">
+    <input type="date" id="date" required>
+    <select  id="exercise-type">
+       <option value="Strength">Strength</option>
+       <option value="Cardio">Cardio</option>
+       <option value="Mobility">Mobility</option>
+    </select>
+    <button type="submit">Add Workout</button>
+</form>
+
+<ul id="workout-list"></ul>
+
+
+<script src="app.js"></script>
+
+</body>
+</html>
